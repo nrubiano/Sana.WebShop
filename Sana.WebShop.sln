@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sana.WebShop", "Sana.WebShop\Sana.WebShop.csproj", "{295EF5BD-FE1E-4EEA-A360-7B47DC30990D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{295EF5BD-FE1E-4EEA-A360-7B47DC30990D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295EF5BD-FE1E-4EEA-A360-7B47DC30990D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295EF5BD-FE1E-4EEA-A360-7B47DC30990D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295EF5BD-FE1E-4EEA-A360-7B47DC30990D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC1FC34C-528A-4CA0-954D-44E735AD9B87}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Product List";
+}
+
+<div class="jumbotron">
+    <h3>Welcome to Products</h3>    
+</div>
+
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>            
+            <th>Title</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var prod in ViewBag.Products)
+        {
+            <tr>
+                <th>
+                @prod.Title
+                </th>
+                <th>
+                @prod.Price
+                </th>
+            </tr>
+        }
+    </tbody>
+</table>
